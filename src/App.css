@@ -1,0 +1,56 @@
+.mainbox{
+    height: fit-content;
+
+}
+button,li{
+    text-transform: capitalize;
+}
+.home-main{
+    height: 90vh;
+}
+
+.card{
+    min-height: 70vh !important;
+}
+
+.nav-link{
+    text-align: center;
+}
+.home-heading{
+    height: 90vh;
+}
+.menu-main{
+    height: 90vh;
+}
+/* .img-box{
+    overflow: hidden;
+} */
+/* .img-box:hover{
+    transform: scale(1.1);
+    
+    
+} */
+
+.cart-box{
+    height: 80vh !important;
+}
+.about-main{
+    
+    height: 90vh;
+}
+.grid_box{
+    height: 80vh !important;
+}
+.book-box{
+    border: 2px solid black !important;
+}
+.about-ul li{
+    line-height: 35px;
+
+}
+.contact-main{
+    height: 90vh ;
+}
+.book-mainbox{
+    height: 90vh;
+}
