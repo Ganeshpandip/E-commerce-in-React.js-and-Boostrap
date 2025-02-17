@@ -3,8 +3,9 @@ import React from 'react'
 function Bookatable() {
   return (
     <>
-      <div className="container book-mainbox my-5 ">
-        <div className="row ">
+      <div className="container book-mainbox my-5 " data-aos="fade-down"
+            data-aos-duration="2000">
+        <div className="row " >
           <div className="col-12 col-md-6">
              <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label">First Name</label>

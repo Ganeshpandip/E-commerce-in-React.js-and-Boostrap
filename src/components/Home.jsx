@@ -6,15 +6,17 @@ function Home() {
     <>
       <div className="conatiner bg-body  home-main  dflex ">
         <div className="row home-heading     justify-content-center align-items-center">
-          <div className="col-12  col-md-5 d-flex align-items-center justify-content-center flex-column  ">
-            <h1 className='fs-1 fw-bold'>Enjoy Your Healthy <br />
+          <div className="col-12  col-md-5 d-flex align-items-center justify-content-center flex-column  " data-aos="fade-right"
+            data-aos-duration="2000">
+            <h1 className='fs-1 fw-bold' >Enjoy Your Healthy <br />
             Delicious Food $</h1>
             <p>We are team of talented designers making websites with Bootstrap</p>
             <Link to={"/Bookatable"} class=" btn btn-danger fs-4 rounded-pill"  href="#">Book a table</Link>
 
 
           </div>
-          <div className="col-12  col-md-5 d-flex align-items-center justify-content-center">
+          <div className="col-12  col-md-5 d-flex align-items-center justify-content-center" data-aos="fade-left"
+            data-aos-duration="2000">
             <img className='w-75' src="https://bootstrapmade.com/content/demo/Yummy/assets/img/hero-img.png" alt="" />
           
             

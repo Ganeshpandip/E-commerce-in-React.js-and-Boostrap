@@ -32,7 +32,7 @@ function Nav({Cartarry}) {
       <form class="d-flex" role="search">
         
       
-           <Link to={"/Bookatable"}class="nav-link mx-auto btn btn-outline-danger p-2 rounded-pill"  href="#">Book a table</Link>
+           <Link to={"/Bookatable"}class="mx-auto btn btn-outline-danger p-2 rounded-pill"  href="#">Book a table</Link>
         
       </form>
     </div>

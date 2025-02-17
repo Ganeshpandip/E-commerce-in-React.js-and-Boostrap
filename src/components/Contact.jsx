@@ -9,7 +9,8 @@ function Contact() {
               <p>contact</p>
               <h1 className='fs-3 fw-bold'>Need Help? <span className='text-danger fs-3 fw-bold'>contact Us</span></h1>
           </div>
-          <div className="row bg-body-tertiary  ">
+          <div className="row bg-body-tertiary" data-aos="fade-right"
+            data-aos-duration="2000">
             <div className="col-12 col-md-5 ms-md-5 ">
               <div className="container d-flex align-items-center justify-content-center my-3 bg-body">
                  <i class="fa-solid fa-location-dot fs-2 text-danger"></i>
@@ -47,7 +48,9 @@ function Contact() {
             </div>
 
           </div>
-          <div className="container  d-flex align-items-center             justify-content-center flex-column my-4 ">
+          <div className="container  d-flex align-items-center justify-content-center flex-column my-4 "
+          data-aos="fade-left"
+          data-aos-duration="2000">
            <div class="mb-3 w-50">
               <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="your name"/>
             </div>

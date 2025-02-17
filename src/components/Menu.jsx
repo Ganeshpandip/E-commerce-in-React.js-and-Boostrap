@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import Data from '../Data.js'
-import { data } from 'react-router-dom'
-import { Button } from 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Menu({Cartarry,setCartarry}) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   const [food,setfood] =useState(Data);
   
 
@@ -44,7 +47,7 @@ function Menu({Cartarry,setCartarry}) {
 
     <>
       <div className="container menu-main d-flex  flex-column">
-        <div className="container  d-flex justify-content-center mt-lg-2 flex-column align-items-center ">
+        <div    className="container  d-flex justify-content-center mt-lg-2 flex-column align-items-center ">
           <p>OUR MENU </p>
           <h1 className='h2'>check our <span className='text-danger fw-bold '>Spicy Spot Menu</span></h1>
         </div>
@@ -62,7 +65,7 @@ function Menu({Cartarry,setCartarry}) {
             <div className="row g-3">
               {food.map((item)=>(
                       <div className="col-12 col-md-4">
-                      <div class="card " id={item.id}>
+                      <div class="card  " data-aos="fade-up"data-aos-duration="1000"  id={item.id}>
                             <img src={item.img} class="card-img-top img-box" alt="..." />
                             <div class="card-body d-flex justify-content-center   flex-column align-items-center ">
                               <h5 class="card-title">{item.title}</h5>

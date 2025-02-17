@@ -11,7 +11,8 @@ function About() {
       <div className="container-fluid   grid_box my-3">
         <div className="row   ">
           <div className="col-12 col-md-6  ">
-             <div className="container h-75">
+             <div className="container h-75" data-aos="fade-right"
+            data-aos-duration="1000">
              <img className='h-100 w-100' src="https://bootstrapmade.com/content/demo/Yummy/assets/img/about.jpg" alt="" />
              </div>
              <div className="conatainer  my-2 d-flex align-items-center justify-content-center flex-column  book-box ">
@@ -28,7 +29,8 @@ function About() {
                     Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident </li>
 
               </ul>
-              <div className="contaniner ms-2  h-50">
+              <div className="contaniner ms-2  h-50" data-aos="fade-left"
+            data-aos-duration="2000">
                 <img className='w-75 h-100  ms-3' src="https://bootstrapmade.com/content/demo/Yummy/assets/img/about-2.jpg" alt="" />
 
 
