@@ -8,7 +8,7 @@ function Home() {
         <div className="row home-heading     justify-content-center align-items-center">
           <div className="col-12  col-md-5 d-flex align-items-center justify-content-center flex-column  ">
             <h1 className='fs-1 fw-bold'>Enjoy Your Healthy <br />
-            Delicious Food</h1>
+            Delicious Food $</h1>
             <p>We are team of talented designers making websites with Bootstrap</p>
             <Link to={"/Bookatable"} class=" btn btn-danger fs-4 rounded-pill"  href="#">Book a table</Link>
 
