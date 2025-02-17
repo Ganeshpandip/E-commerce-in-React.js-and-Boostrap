@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Nav2 from './Nav2';
 
 function Cart({Cartarry}) {
 
@@ -20,7 +19,7 @@ function Cart({Cartarry}) {
 
   return (
     <>
-    {/* <Nav2/> */}
+    
     <div className="container d-flex justify-content-center py-3">
 
     <h1 className='fs-2 text-danger'>Total Amount ${total}</h1>
