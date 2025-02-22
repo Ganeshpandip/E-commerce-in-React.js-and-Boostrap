@@ -21,9 +21,4 @@ This is a restaurant website built using **ReactJS**, **HTML**, **CSS**, and **B
 ## Installation
 
 To get started with this project locally:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/restaurant-website.git
-   cd restaurant-website
+- **[Project Name](link-to-your-project)**: Brief description of the project.
