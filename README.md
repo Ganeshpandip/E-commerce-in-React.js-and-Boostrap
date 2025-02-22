@@ -18,7 +18,4 @@ This is a restaurant website built using **ReactJS**, **HTML**, **CSS**, and **B
 - **Bootstrap**: A popular CSS framework for responsive web design.
 - **React Router**: For routing between different pages and sections in the app.
 
-## Installation
 
-To get started with this project locally:
-- **[Project Name](link-to-your-project)**: Brief description of the project.
