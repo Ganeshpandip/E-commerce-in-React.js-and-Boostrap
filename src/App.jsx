@@ -22,7 +22,7 @@ function App() {
       <Nav Cartarry={Cartarry}/>
         <div className="conatiner-fluid mainbox bg-body">
           <Routes>
-            <Route path='/E-commerce-in-React.js-and-Boostrap/' element={<Home/>}></Route>
+            <Route path='/E-commerce-in-React.js-and-Boostrap/' index element={<Home/>}></Route>
             <Route path='/menu' element={<Menu Cartarry={Cartarry} setCartarry={setCartarry} />}></Route>
             <Route path='/About' element={<About/>}></Route>
             <Route path='/contact' element={<Contact/>}></Route>

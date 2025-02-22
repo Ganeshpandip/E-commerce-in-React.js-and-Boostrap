@@ -54,3 +54,23 @@ button,li{
 .book-mainbox{
     height: 90vh;
 }
+
+.animi{
+    animation: flip 1s linear ;
+}
+
+@keyframes flip {
+    0%{
+        transform: translateX(-40%);
+        opacity: 0;
+    }
+}
+.animi2{
+    animation: flip1 1s linear ;
+}
+@keyframes flip1 {
+    0%{
+        transform: translateX(40%);
+        opacity: 0;
+    }
+}
